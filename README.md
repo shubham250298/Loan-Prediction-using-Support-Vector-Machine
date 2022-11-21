@@ -1,14 +1,13 @@
 # Loan-Status-Prediction-using-Support-Vector-Machine
 
-Hello Everyone, I hope you are doing well. Ever wondered, how great would it be, if we could predict, whether our request for a loan, 
-will be approved or not, simply by the use of machine learning, from the ease and comfort of your home? 
+Hello Everyone, I hope you are doing well. Ever wondered, how great would it be, if we could predict, whether our request for a loan, will be approved or not, simply by the use of machine learning, from the ease and comfort of your home? 
 I am doing that with the help of a Machine Learning model named the Support Vector Machine.
 
 <img src ="https://user-images.githubusercontent.com/108235140/203006550-66b17bc6-8dd6-4b98-a1a3-36456efa16c8.png">
 
 ## A brief about Support Vector Machine Model
 
-The algorithm that we shall be using for this purpose, is the Support Vector Machine. Support Vector Machine,(SVM), falls under the “supervised machine learning algorithms” category. It can be used for classification, as well as for regression. In this model, we plot each data item as a unique point in an n-dimension,(where n is actually, the number of features that we have), with the value of each of the features being the value of that particular coordinate. Then, we perform the process of classification by finding the hyper-plane that differentiates the two classes.
+The algorithm that I am using for this purpose, is the Support Vector Machine. Support Vector Machine,(SVM), falls under the “supervised machine learning algorithms” category. It can be used for classification, as well as for regression. In this model, I plot each data item as a unique point in an n-dimension,(where n is actually, the number of features that we have), with the value of each of the features being the value of that particular coordinate. Then, I perform the process of classification by finding the hyper-plane that differentiates the two classes.
 
 ## Why choose Support Vector Machine over other algorithms?
 
@@ -55,5 +54,6 @@ Here, I am splitting the data into four variables, viz., X_train, Y_train, X_tes
 ![image](https://user-images.githubusercontent.com/108235140/203011519-8a34f823-657b-4da4-8e20-0934c9bc7111.png)
 
 Finally, I have trained my model and obtained the Accuracy of **79% on training dataset** and **83% on testing dataset**.
+
 #### Conclusion: Since the Accuracy is very good, This model is now able to handle new input values and predict the output. Hope, this project will help you a lot :)
 
