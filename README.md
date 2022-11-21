@@ -34,6 +34,8 @@ numpy, pandas, seaborn, and ScikitLearn.
 
 ### Data Collection and Processing
 
+![image](https://user-images.githubusercontent.com/108235140/203012007-cb22d5e5-af49-479d-bff0-28653c3c8c6b.png)
+
 - The dataset will be in the format of a CSV. Thus to read it, I am taking the help of the pandas method, called read_csv()
 - Also I am storing the dataset in the variable called “loan_dataset” to refer to the entire dataset by this variable name.
 - Now, I have checked the number of rows and columns in the dataset.
@@ -49,6 +51,8 @@ numpy, pandas, seaborn, and ScikitLearn.
 Here, I am splitting the data into four variables, viz., X_train, Y_train, X_test, Y_test. The testsize represents the ratio of how the data is distributed among X_trai and X_test (Here 0.2 means that the data will be segregated in the X_train and X_test variables in an 80:20 ratio). You can use any value you want. A value < 0.3 is preferred.
 
 ### Training our Support Vector Machine model
+
+![image](https://user-images.githubusercontent.com/108235140/203011519-8a34f823-657b-4da4-8e20-0934c9bc7111.png)
 
 Finally, I have trained my model and obtained the accuracy of 0.79%.
 
