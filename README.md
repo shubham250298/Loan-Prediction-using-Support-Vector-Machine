@@ -54,5 +54,6 @@ Here, I am splitting the data into four variables, viz., X_train, Y_train, X_tes
 
 ![image](https://user-images.githubusercontent.com/108235140/203011519-8a34f823-657b-4da4-8e20-0934c9bc7111.png)
 
-Finally, I have trained my model and obtained the accuracy of 0.79%.
+Finally, I have trained my model and obtained the Accuracy of **79% on training dataset** and **83% on testing dataset**.
+#### Conclusion: Since the Accuracy is very good, This model is now able to handle new input values and predict the output. Hope, this project will help you a lot :)
 
